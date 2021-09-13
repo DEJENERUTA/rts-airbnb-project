@@ -1,0 +1,30 @@
+{
+	"Smutture-i-naturen": [
+		{
+			"heading": "Smutture-i-naturen"
+		},
+		{
+			"images": [
+				"airbnb-image1.jpeg",
+				"airbnb-image2.jpeg",
+				"airbnb-image3.jpeg",
+				"airbnb-image4.jpeg"
+			]
+		},
+
+		{
+			"house": [
+				{
+					"gæster": 4,
+					"studio-lejhed": 1,
+					"senge": 4,
+					"bad": 1.5,
+					"liked": "true",
+					"unliked": "false",
+					"stars": 4.94,
+					"views": 16
+				}
+			]
+		}
+	]
+}
