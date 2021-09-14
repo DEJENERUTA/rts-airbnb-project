@@ -11,13 +11,13 @@ fetch("./js/airbnb.json")
 				superHost = "";
 			}
 
-			wrapperElement.innerHTML += `<div class="parent">
+			wrapperElement.innerHTML += `<a href="natur.html"><div class="parent">
 			<div class="div3"><i class="far fa-heart"></i>
 			</div>
 			<div class="div1">
-				<a href="natur.html">
+				
 				<img src="../images/${whatever.images[0]}" alt=""
-				/></a>
+				/>
 				<div class="superhost ${superHost}">SUPERHOST</div>
 			</div>
 
@@ -25,12 +25,13 @@ fetch("./js/airbnb.json")
 				<p>${whatever.info.subInfo}</p>
 				<h2>${whatever.info.mainInfo}</h2>
 				<hr class="short" />
-				<p>${whatever.gæster} gæster . Studio-lejlighed .  ${whatever.senge} senge · ${whatever.bad} bad </p>
+				<p>${whatever.gæster} gæster . Studio-lejlighed . 
+				 ${whatever.senge} senge · ${whatever.bad} bad </p>
 				<p class="star"><i class="fas fa-star"></i>4,94(16 omtaler)</p>
-				
 			</div>
+
           </div>
-		  
+		  </a>
 		<hr class="long" />`;
 		});
 	});

@@ -47,22 +47,22 @@
 				],
 
 				"info": {
-					"mainInfo": "Architectural vacation house exotic courtyard",
-					"subInfo": "Hel(t) hytte i kirke Hyllinge"
+					"mainInfo": "Summerhouse at island-fjordview",
+					"subInfo": "Hel(t) hytte i orø"
 				},
 				"gæster": 4,
-				"studioLejhed": 1,
-				"senge": 4,
-				"bad": 1.5,
+				"soveværelse": 1,
+				"badeværelse": 1,
+				"senge": 1,
 				"liked": true,
-				"stars": 4.94,
-				"views": 16,
+				"stars": 4.97,
+				"views": 178,
 				"location": {
 					"country": "Denmark",
 					"city": "Farsø"
 				},
 				"host": {
-					"superhost": false,
+					"superhost": true,
 					"name": "Dejene",
 					"month": "january",
 					"year": 2016
@@ -80,16 +80,16 @@
 				],
 
 				"info": {
-					"mainInfo": "Architectural vacation house exotic courtyard",
-					"subInfo": "Hel(t) hytte i kirke Hyllinge"
+					"mainInfo": "Cozy summerhouse in the edge of forest on island",
+					"subInfo": "Hel(t) hytte i orø"
 				},
-				"gæster": 4,
-				"studioLejhed": 1,
+				"gæster": 6,
+				"soveværelse": 2,
 				"senge": 4,
-				"bad": 1.5,
+				"badeværelse": 1,
 				"liked": true,
-				"stars": 4.94,
-				"views": 16,
+				"stars": 5.0,
+				"views": 29,
 				"location": {
 					"country": "Denmark",
 					"city": "Farsø"

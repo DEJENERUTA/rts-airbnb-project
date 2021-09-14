@@ -93,6 +93,10 @@ h2 {
 	font-weight: normal;
 	font-size: 18px;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 main {
 	padding-left: 20px;
 	padding-right: 20px;
