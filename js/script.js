@@ -35,15 +35,3 @@ fetch("./js/airbnb.json")
 		<hr class="long" />`;
 		});
 	});
-
-//example(for example if I delete some text from HTML),
-//I have to see it in the browser, or in my website because
-// of json data, we do that by using js
-/* let fetchData = fetch("./js/airbnb.json")
-	.then((response) => response.json())
-	.then((data) => {
-		console.log(data);
-		document.querySelector(
-			"#photo-list"
-		).innerHTML = `<h1>Smutture i naturen</h1>`;
-	}); */
