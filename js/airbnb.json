@@ -1,8 +1,43 @@
 {
-	"Smutture-i-naturen": {
+	"SmuttureINaturen": {
 		"heading": "Smutture-i-naturen",
 
 		"house": [
+			{
+				"images": [
+					"airbnb-image1.jpeg",
+					"airbnb-image2.jpeg",
+					"airbnb-image3.jpeg",
+					"airbnb-image4.jpeg",
+					"airbnb-image5.jpeg",
+					"super-host.jpeg"
+				],
+
+				"info": {
+					"main-info": "Architectural vacation house exotic courtyard",
+					"sub-info": "Hel(t) hytte i kirke Hyllinge"
+				},
+				"gæster": 4,
+				"studio-lejhed": 1,
+				"senge": 4,
+				"bad": 1.5,
+				"liked": true,
+				"stars": 4.94,
+				"views": 16,
+				"location": {
+					"country": "Denmark",
+					"city": "Farsø",
+					"host": {
+						"host": {
+							"superhost": true,
+							"name": "Dejene",
+							"month": "january",
+							"year": 2016
+						},
+						"tilbud": ["køkken", " Pejs", "Husdyr tilladt", "Husdyr tilladt"]
+					}
+				}
+			},
 			{
 				"images": [
 					"airbnb-image1.jpeg",
