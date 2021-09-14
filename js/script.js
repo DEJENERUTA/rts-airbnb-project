@@ -3,22 +3,34 @@ let wrapperElement = document.querySelector("#photo-list");
 fetch("./js/airbnb.json")
 	.then((response) => response.json())
 	.then((result) => {
+		let superHost;
 		result.SmuttureINaturen.house.forEach((whatever) => {
+			if (whatever.host.superhost === false) {
+				superHost = "inactive";
+			} else {
+				superHost = "";
+			}
+
 			wrapperElement.innerHTML += `<div class="parent">
+			<div class="div3"><i class="far fa-heart"></i>
+			</div>
 			<div class="div1">
 				<a href="natur.html">
-					<img src="../images/${whatever.images[0]}" alt=""
+				<img src="../images/${whatever.images[0]}" alt=""
 				/></a>
+				<div class="superhost ${superHost}">SUPERHOST</div>
 			</div>
+
 			<div class="div2">
-				<p>Hel(t) hytte i kirke Hyllinge</p>
-				<h2>Architectural vacation house exotic courtyard</h2>
+				<p>${whatever.info.subInfo}</p>
+				<h2>${whatever.info.mainInfo}</h2>
 				<hr class="short" />
-				<p>4 gæster. 1 Studio-lejlighed. 2 senge. 1,5 bad</p>
+				<p>${whatever.gæster} gæster . Studio-lejlighed .  ${whatever.senge} senge · ${whatever.bad} bad </p>
 				<p class="star"><i class="fas fa-star"></i>4,94(16 omtaler)</p>
+				
 			</div>
-			<div class="div3"><i class="far fa-heart"></i></div>
-		</div>
+          </div>
+		  
 		<hr class="long" />`;
 		});
 	});
