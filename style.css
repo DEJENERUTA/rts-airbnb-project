@@ -80,9 +80,17 @@ ul li {
 	right: -5px;
 	border: 2px solid white;
 }
+.icon-right i {
+	float: right;
+	color: gray;
+	margin-right: 15px;
+	font-size: 15px;
+}
 .right-list-userMenu i {
 	font-size: 22px;
 }
+/* navigation ends here */
+
 .grid-container {
 	padding-top: 130px;
 }
@@ -97,6 +105,7 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+/* main start here */
 main {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -182,13 +191,9 @@ main {
 	display: flex;
 	justify-content: space-between;
 }
-.icon-right i {
-	float: right;
-	color: gray;
-	margin-right: 15px;
-	font-size: 15px;
-}
-.parent1 {
+
+/* natur.html */
+.natur-big-img {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(4, 1fr);
@@ -198,50 +203,48 @@ main {
 	overflow: hidden;
 }
 
-.div11 {
+.natur-small-img {
 	grid-area: 1 / 1 / 5 / 3;
 }
 
-.div22 {
+.natur-small-img2 {
 	grid-area: 1 / 3 / 3 / 4;
 }
-.div33 {
+.natur-small-img3 {
 	grid-area: 3 / 3 / 5 / 4;
 }
-.div44 {
+.natur-small-img4 {
 	grid-area: 1 / 4 / 3 / 5;
 }
-.div55 {
+.natur-small-img5 {
 	grid-area: 3 / 4 / 5 / 5;
 }
-.parent-one {
+.hils-container {
 	display: grid;
-	grid-template-columns: 300px 1fr;
+	grid-template-columns: 100px 1fr;
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 5px;
 	grid-row-gap: 10px;
 	margin-top: 20px;
 }
-.parent-one i {
+.hils-container i {
 	color: red;
 	font-size: 20px;
 }
-.div2-two {
+
+.hils-img {
 	grid-area: 1 / 1 / 3 / 2;
 	border-radius: 8px;
-}
-.div2-two img {
 	border-radius: 8px;
-	width: 250px;
+	width: 70%;
 }
-.div3-three p {
+.hils-vært p {
 	font-size: 22px;
 }
-.div3-four {
+.hils-detail {
 	grid-area: 2 / 2 / 3 / 3;
 	display: flex;
 	align-items: flex-end;
-	gap: 3%;
 }
 
 .host-info {
@@ -274,6 +277,11 @@ button {
 	flex-direction: column;
 	width: 50%;
 	font-size: 20px;
+}
+
+.right p,
+.left p {
+	margin-bottom: 20px;
 }
 h3 {
 	margin-bottom: 10px;

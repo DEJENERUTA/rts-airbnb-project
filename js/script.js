@@ -29,8 +29,7 @@ fetch("./js/airbnb.json")
 				 ${whatever.senge} senge · ${whatever.bad} bad </p>
 				<p class="star"><i class="fas fa-star"></i>4,94(16 omtaler)</p>
 			</div>
-
-          </div>
+           </div>
 		  </a>
 		<hr class="long" />`;
 		});
